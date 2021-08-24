@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.register {
+    text-align: center;
+    /* position: relative;
+    top: 4rem; */
+    margin: 34px;
+}
+
+.bcolor1 {
+    background-image: linear-gradient(to right, #ff832bd1, #ff416c);
+}
+
+.bcolor2 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.pagecontainer {
+    border: 4px solid white;
+    margin: 6rem 14rem 2rem 17rem;
+    height: 30rem;
+    display: flex;
+    border-radius: 25px;
+}
+
+.container-1 {
+    border: 1px;
+    border-radius: 8px;
+    height: 78.5vh;
+    width: 62vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: all 1s ease-in;
+    transform: rotate(360deg);
+    transform: translate(100px); */
+}
+
+.container-2 {
+    border: 2px;
+    border-radius: 8px;
+    width: 69vw;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.heading {
+    color: white;
+    margin-bottom: 17px;
+    margin-left: 25px;
+}
+
+h1.form-heading {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 13px 5px 15px 5px;
+}
+
+pre {
+    color: white;
+    margin: 5px 11px 0px 3px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    color: limegreen;
+}
+
+.none {
+    display: none;
+    /* transition: all 15s ease-in;
+    transform: rotate(360deg);
+    transform: translate(100px); */
+}
+
+.social-plattforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    height: 54px;
+    width: 65px;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    font-size: 18px;
+    font-family: monospace;
+    margin-left: 9px;
+}
+
+input[type="checkbox"] {
+    height: 14px;
+    width: 14px;
+    margin: 4px 0px 15px 35px;
+}
+
+input[type="radio"] {
+    margin: 13px;
+}
+
+input[type="button"] {
+    padding: 10px 36px 13px 32px;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    left: 56px;
+}
+
+#login,
+#newac {
+    margin-left: 32px;
+    background-color: #ff0000d1;
+    color: white;
+}
+
+#sign,
+#signup {
+    background-color: #f4ff4891;
+    border: white;
+    color: white;
+    margin: 25px 0px 0px 5px;
+}
+
+input.signup:hover,
+input.login:hover {
+    transition: all 0s ease-in;
+    transform: rotate(5deg);
+    transform: translate(30px 30px);
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    display: block;
+    margin: 25px;
+    padding: 16px 62px 16px 19px;
+    border-radius: 25px;
+    border-color: rgb(245 194 183);
+}
