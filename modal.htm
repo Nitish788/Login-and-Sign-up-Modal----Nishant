@@ -18,16 +18,22 @@
 To keep connected with us please 
            login with your personal info  </pre
           >
-          <input type="button" class="signup" value="Sign In" id="sign" />
+          <input type="submit" class="signup" value="Sign In" id="sign" />
         </div>
         <div class="signinform">
           <h1 class="form-heading">Sign in</h1>
           <p>with social plattforms</p>
           <div class="social-plattforms">
-            <img src="fb.png" alt="facebook-logo" class="logo-image" />
-            <img src="g+.jpg" alt="google+-logo" class="logo-image" />
-            <img src="pinterest.png" alt="pinterest-logo" class="logo-image" />
-            <img src="insta.jpg" alt="insta-logo" class="logo-image" />
+            <a href="http://facebook.com" target="_blank">
+              <img src="img/l1.jpg" alt="facebook-logo" class="logo-image" /</a
+            >
+
+            <a href="http://pinterst.com" target="_blank"
+              ><img src="img/l3.jpg" alt="pinterest-logo" class="logo-image"
+            /></a>
+            <a href="http://instagram.com" target="_blank"
+              ><img src="img/l2.jpg" alt="insta-logo" class="logo-image"
+            /></a>
           </div>
           <p>or use your account</p>
           <form action="abc.php">
@@ -36,18 +42,26 @@ To keep connected with us please
                 type="email"
                 name="emailid"
                 id="email"
-                pattern=""
-                title="include @"
-                placeholder="enter your email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="E-mail must contain @"
+                placeholder="E-mail"
                 required
               />
             </label>
             <label for="password">
-              <input type="password" name="pasw" id="password"
-              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=""Must contain
+              <input
+                type="password"
+                name="pasw"
+                id="password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain
               at least one number and one uppercase and lowercase letter, and at
-              least 8 or more characters"" minlength="8"
-              maxlength="12"placeholder="enter your password" required />
+              least 8 or more characters"
+                minlength="8"
+                maxlength="12"
+                placeholder="Password"
+                required
+              />
             </label>
             <label for="check">
               <input
@@ -58,7 +72,7 @@ To keep connected with us please
               /><span>Remember Me</span>
             </label>
             <h4>Forgot your password?</h4>
-            <input type="button" class="login" value="Login" id="login" />
+            <input type="submit" class="login" value="Login" id="login" />
           </form>
         </div>
       </div>
@@ -69,7 +83,7 @@ To keep connected with us please
 Enter your personal details and start
             journey with us
           </pre>
-                <input type="button" class="signup" value="Sign Up" id="signup" />
+                <input type="submit" class="signup" value="Sign Up" id="signup" />
             </div>
             <div class="signupform none">
                 <h1 class="form-heading">Create Account</h1>
@@ -79,8 +93,7 @@ Enter your personal details and start
                 type="text"
                 name="name"
                 id="mname"
-                pattern=""
-                placeholder="Enter your full name"
+                placeholder="Username"
                 maxlength="40"
                 required
               />
@@ -90,18 +103,25 @@ Enter your personal details and start
                 type="email"
                 name="mail"
                 id="mail"
-                pattern=""
-                title=""
-                placeholder="enter your email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="E-mail must contain @"
+                placeholder="E-mail"
                 required
               />
             </label>
                     <label for="password">
-              <input type="password" name="psww" id="secret"
-              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=""Must contain
+              <input
+                type="password"
+                name="psww"
+                id="secret"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain
               at least one number and one uppercase and lowercase letter, and at
-              least 8 or more characters"" placeholder="enter your password
-              "required />
+              least 8 or more characters"
+                placeholder="Password
+              "
+                required
+              />
             </label> Choose your gender: Male<input type="radio" name="mygender" id="male" /> Female <input type="radio" name="mygender" id="female" />
                     <br />
                     <label for="terms">
@@ -110,10 +130,10 @@ Enter your personal details and start
                 name="box"
                 id="terms"
                 value="terms&condition"
-              /><span>I accept all the terms</span>
+              /><span>Accept terms & conditions</span>
             </label>
                     <br />
-                    <input type="button" class="signup" value="Sign Up" id="newac" />
+                    <input type="submit" class="signup" value="Sign Up" id="newac" />
                 </form>
             </div>
         </div>

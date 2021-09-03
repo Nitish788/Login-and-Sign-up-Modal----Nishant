@@ -7,16 +7,16 @@ const signUpPage = document.querySelector(".signuppage");
 const signUpForm = document.querySelector(".signupform");
 const container1 = document.querySelector(".container-1");
 const container2 = document.querySelector(".container-2");
-console.log(
-    signUp,
-    signIn,
-    signUpPage,
-    signUpForm,
-    signInPage,
-    signInForm,
-    container1,
-    container2
-);
+// console.log(
+//     signUp,
+//     signIn,
+//     signUpPage,
+//     signUpForm,
+//     signInPage,
+//     signInForm,
+//     container1,
+//     container2
+// );
 signUp.addEventListener("click", function() {
     signInPage.classList.remove("none");
     signInForm.classList.add("none");
